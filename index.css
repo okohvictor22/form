@@ -1,0 +1,58 @@
+body{
+    font-size: medium;
+    font-family: 'Times New Roman', Times, serif;
+    height: 297mm;
+    width: 210mm;
+    
+    
+}
+img[alt="iospine-logo"]{
+    height: 1.6em;
+    width: 5em;
+}
+#passport{
+    font-size: smaller;
+    margin-left: 16cm;
+}
+div.company{
+    display: grid;
+    grid-template-columns: " first second" 1fr 2fr;
+    justify-items: center ;
+    align-items: center;
+
+}
+.logo{
+    grid-area: first;
+    margin-right: 19cm;
+}
+.head{
+    grid-area: second;
+    margin-right: 14.5cm;
+    font-size: larger;
+    font-weight:900 ;
+}
+.address{
+    margin-left: 10cm;
+    grid-area: simdi;
+}
+.header{
+    display: grid ;
+    grid-template-columns: "bobo simdi" 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+}
+.sign{
+    display: grid;
+    grid-template-columns: " vic tor ape" 1fr 2fr 1fr;
+    justify-items: start;
+    align-items: start;
+}
+.student{
+    border-top: 2px solid black;
+    margin-right: 10cm;
+
+}
+.guardian{
+    border-top:  2px solid black;
+    margin-left: 16cm;
+}

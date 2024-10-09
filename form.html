@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>FORM PROJECT</title>
+    </head>
+<body>
+    <div class="header">
+    <div class="company">
+       <div class="logo">
+           <img src="images/iospine-logo.png" alt="iospine-logo">
+       </div> 
+        <div class="head">
+              I/O SPINE
+   
+        </div>
+    </div>
+
+    <div class="address">
+     <P> OFFICE ADDRESS:
+         Suite 109 Sansani Plaza, Ado, Karu LGA, Nasarawa State.
+    </P>
+
+    <p>
+        EMAIL:
+        academy@iospine.com_
+    </p>
+
+    <p>
+        PHONE:07061681517,08142171801.
+    </p>
+    </div>
+</div>
+    <form>
+        <fieldset>
+            <legend style="font-weight: 900;">
+                STUDENT REGISTERATION FORM
+            </legend>
+            <label for="passport" id="passport">UPLOAD YOUR PASSPORT</label>
+            <input type="file" name="upload your passport" id="passport">
+            <label for="surname">SURNAME</label>
+            <input type="text" name="surname" id="surname">
+            <br>
+            <label for="firstname">FIRST NAME</label>
+            <input type="text" name="firstname" id="firstname">
+            <br>
+            <label for="middle-name">MIDDLE NAME</label>
+            <input type="text" name="middle-name" id="middle-name">
+            <br>
+            <label for="date-of-birth">DATE OF BIRTH</label>
+            <input type="date" name="date" id="date-of-birth">
+            <label for="state-of-origin">STATE OF ORIGIN</label>
+            <select name="state" id="state-of-origin">
+            <option value="benue">BENUE</option>
+            <option value="imo">IMO</option>
+            <option value="abia">ABIA</option>
+            <option value="kaduna">KADUNA</option>
+            <option value="kogi">KOGI</option>
+            <option value="kwara">KWARA</option>
+            <option value="adamawa">ADAMAWA</option>
+            <option value="enugu">ENUGU</option>
+            <option value="anambara">ANAMBARA</option>
+            <option value="bronu">BORNU</option>
+            </select>
+                 <br>
+            <label for="lga">LGA</label>
+            <select name="lga" id="lga">
+                <option value="makurdi">MAKURDI</option>
+                <option value="illorin">ILLORIN</option>
+                <option value="ikeja">IKEJA</option>
+                <option value="ogbadibo">OGBADIBO</option>
+                <option value="yola">YOLA</option>
+            </select>
+
+            
+            <label for="home-town">HOME TOWN</label>
+            <input type="text" name="home" id="home-town">
+            <br>
+            <label for="residential-address">RESIDENTIAL ADDRESS</label>
+            <input type="text" name="address" id="residential-address">
+            <br>
+            <label for="phone-number">PHONE NOMBER(S)</label>
+            <input type="text" name="number" id="phone-number">
+            <br>
+            <label for="email">EMAIL ADDRESS</label>
+            <input type="email" name="email" id="email">
+            <br>                        
+            <label for="education">EDUCATION</label>
+            <select name="education" id="education">
+                <option value="o level">O LEVEL</option>
+                <option value="seconderian">SECONDERIAN</option>
+                <option value="diploma">DIPLOMA</option>
+            </select>
+
+            <br>
+            <label for="course-enrolled-for">COURSE ENROIIED FOR</label>
+            <input type="text" name="course" id="course-enrolled-for">
+            <br>
+            <label for="course-duration">COURSE DURATION</label>
+            <input type="text" name="duration" id="course-duration">
+            <br>
+            <label for="date-of-enrolment">DATE OF ENROLMENT</label>
+            <input type="date" name="enrolment" id="date-of-enrolment">
+            <br>
+            <label for="total-cost">TOTAL COST</label>
+            <input type="text" name="cost" id="total-cost">
+            <br>
+            <label for="date-of-completion">DATE OF COMPLETION</label>
+            <input type="date" name="completion" id="date-of-completion">
+            <br>
+        </fieldset>
+
+<fieldset>
+ <legend>
+   <b>
+       GUARDIAN DATA
+   </b>       
+ </legend>
+    <label for="name">NAME</label>
+    <input type="text" name="name" id="name">
+    <br>
+    <label for="address">ADDRESS</label>
+    <input type="text" name="adress" id="address">
+    <br>
+    <label for="phone">PHONE NUMBER</label>
+    <input type="text" name="phone" id="phone">
+    <br>
+    <label for="relationship">RELATIONSHIP</label>
+    <select name="relationship" id="relationship">
+        <option value="father">FATHER</option>
+        <option value="mother">MOTHER</option>
+        <option value="uncle">UNCLE</option>
+        <option value="aunty">AUNTY</option>
+        <option value="brother">BROTHER</option>
+        <option value="sister">SISTER</option>
+    </select>
+
+    <br>
+    <label for="email-address">EMAIL ADDRESS</label>
+    <input type="email" name="eail" id="email-address">
+    <br>
+    
+        </fieldset>
+    </form>
+    <br>
+    <br>
+    <div class="sign">
+        <div class="student" > STUDENT</div>
+        <div class="guardian"> GUARDIAN</div>
+    </div>
+    <br>
+    
+    <button>
+        SUBMIT
+    </button>
+    <script src="main.js"></script>
+</body>
+</html>
